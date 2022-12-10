@@ -1,0 +1,69 @@
+.wishlist 
+{
+    width: 60%;
+    display: flex;
+    margin: 30px auto;
+}
+
+.wl-left
+{
+    width: 70%;
+    display: flex;
+}
+
+.wl-left img 
+{
+    width: 150px;
+    height: 150px;
+}
+
+.wl-left h3
+{
+    color: #000;
+    font-family: NunitoSanExtraBold;
+    font-size: 25px;
+    margin: auto 20px;
+    min-height: 50px;
+}
+
+.wl-right
+{
+    width: 30%;
+    text-align: right;
+}
+
+.wl-right .price
+{
+    color: #f15e2c;
+    font-family: GeometricExtraBold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    min-height: 50px;
+}
+
+
+.wl-right .wishlist-button
+{
+    
+}
+
+.wl-right .wishlist-button-cart
+{
+    border-radius: 0px;
+    height: 40px;
+    width: 125px;
+}
+
+.wl-right .wishlist-button-delete
+{
+    border-radius: 0px;
+    height: 40px;
+    width: 125px;
+    margin-top: 5px;
+    background-color: #303030;
+}
+
+.wl-right .icon_trash_alt
+{
+    color: #fff
+}

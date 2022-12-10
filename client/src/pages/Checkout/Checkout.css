@@ -1,0 +1,276 @@
+.container-checkouts
+{
+    width: 70%;
+    margin: auto;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title
+{
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.information
+{
+    width: 60%;
+}
+
+.info-input
+{
+    width: 100%;
+}
+
+.shipment-details h2
+{
+    margin-bottom: 20px;
+}
+
+.form-info
+{
+    padding: 10px 0;
+}
+
+
+/* payment*/
+.checkouts-title
+{
+    color: #fff;
+    line-height: 65px;
+    text-align: left;
+    background: #333;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.payment-methods .box
+{
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.payment-methods .box label
+{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    margin: 10px 0;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+#option-1:checked ~ .option-1,
+#option-2:checked ~ .option-2,
+#option-3:checked ~ .option-3,
+#option-4:checked ~ .option-4{
+  background: #333;
+  border-color: #333;
+}
+
+.payment-methods .box label .dot
+{
+    height: 20px;
+    width: 20px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+}
+
+.box label .dot::before
+{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9px;
+    height: 9px;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.box label .dot-select
+{
+    
+    color: black;
+}
+
+
+
+.payment-methods .box label .text
+{
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+    transition: color 0.3s ease;
+}
+ 
+#option-1:checked ~ .option-1 .dot::before,
+#option-2:checked ~ .option-2 .dot::before,
+#option-3:checked ~ .option-3 .dot::before,
+#option-4:checked ~ .option-4 .dot::before
+{
+    background: #333;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#option-1:checked ~ .option-1 .text,
+#option-2:checked ~ .option-2 .text,
+#option-3:checked ~ .option-3 .text,
+#option-4:checked ~ .option-4 .text
+{
+    color: #fff;
+}
+
+.shipping-title
+{
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 5px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-methods .box input[type="radio"]
+{
+    display: none;
+}
+
+
+
+/*   Cart  */
+
+.cart-container
+{
+    width: 40%;
+}
+
+.cart-container .list-group
+{
+    background-color: #f1f1f1;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    border: 1px solid #333;
+}
+
+.cart-container .cart-title
+{
+    color: #000;
+    font-family: GeometricExtraBold;
+    font-size: 23px;
+}
+
+.cart-container .cart-title .orders-id-title
+{
+    font-size: 16px;
+    background: #f15e2c;
+}
+
+.cart-container .list-group-item
+{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    clear: both;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.cart-container .list-group-item .name-product
+{
+    float: left;
+    width: 60%;
+}
+.cart-container .list-group-item .price-product
+{
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+.cart-container .list-group-item .size-product
+{
+    float: left;
+    width: 60%;
+}
+.cart-container .list-group-item .amount-product
+{
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+.cart-container .list-group-item .title-order
+{
+    float: left;
+    width: 60%;
+}
+.cart-container .list-group-item .title-current-price
+{
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+.cart-container .list-group-item .phivanchuyen
+{
+    float: left;
+    width: 60%;
+}
+.cart-container .list-group-item .title-shipping-fee
+{
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+.cart-container .list-group-item .title-total-price
+{
+    float: left;
+}
+.cart-container .list-group-item .title-total-price-2
+{
+    float: right;
+    text-align: right;
+}
+
+
+
+.cart-container .cart-divider
+{
+    border-bottom: #000 2px solid;
+}
+
+.cart-container .cart-divider-1
+{
+    border-bottom: #000 2px dashed;
+}
+
+.cart-container .list-group-item .btn-cart
+{
+    background-color: #f15e2c;
+    color: #fff;
+    font-family: GeometricExtraBold;
+    font-size: 23px;
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+
+

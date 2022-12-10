@@ -1,0 +1,195 @@
+.listorder-container {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.listorder-container .group-left {
+    float: left;
+    width: 25%;
+}
+
+.listorder-container .group-left .group-left-item {
+    margin: 20px 0;
+}
+
+.listorder-container .divider {
+    border-bottom: 3px solid #333;
+    width: 20%;
+}
+
+.listorder-container .group-left .group-left-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.listorder-container .group-left .group-left-item a:hover {
+    color: blue;
+}
+
+.listorder-container .group-right {
+    width: 50%;
+    text-align: left;
+}
+
+.listorder-container .group-right .group-right-item {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.listorder-container .divider-1 {
+    border-bottom: 3px solid #333;
+    width: 20%;
+}
+
+.listorder-container .group-right-item input {
+    width: 80%;
+}
+
+.listorder-container .group-right-item button {
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    background: cornflowerblue;
+}
+
+
+.box-order {
+    border: solid 1px #333;
+    border-radius: 5px;
+}
+
+.group-info {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    clear: both;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.group-info-item .order-title {
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-size: 30px;
+}
+
+.group-info-item .total-price {
+    float: left;
+    width: 40%;
+    text-align: right;
+    font-size: 30px;
+}
+
+.group-info-item .date-order {
+    float: left;
+}
+
+
+
+
+.box-order .divider-1 {
+    border-bottom: #000 2px solid;
+}
+
+
+.cart {
+    width: 100%;
+    padding-top: 0;
+}
+
+.cart table {
+    width: 100%;
+}
+
+.cart table thead tr th:first-child {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.cart table tr td {
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-button-payment {
+    margin: 20px;
+    text-align: right;
+}
+
+.cart-btn-payment {
+    border-radius: 10px;
+    padding: 2px 10px;
+    background: #66ccff;
+}
+
+.cart-header {
+    margin-top: 10px;
+}
+
+.cart-input {
+    width: 100%;
+}
+
+.group-info-item .payment {
+    float: right;
+}
+
+.group-info-item .info-name {
+    margin-left: 25%;
+}
+
+.list-product .product-item {
+    margin-left: 10px;
+    display: flex;
+}
+
+.list-product .product-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.list-product .product-item .co-title {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 10px;
+    width: 30%;
+}
+
+.list-product .product-item .co-product-amount {
+    margin: auto 10px
+}
+
+.list-product .product-item .co-price {
+    margin: auto 10px;
+    width: 40%;
+    text-align: right;
+}
+
+.list-product .product-item .co-price h3 {
+    font-size: 25px;
+    font-weight: 500px;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.order-check
+{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+    
+}
+
+.order-check span
+{
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: orange;
+    padding: 10px 10px;
+    border-radius: 5%;
+}

@@ -1,0 +1,118 @@
+.cart
+{
+    width: 70%;
+    margin: auto;
+    padding-top: 140px;
+}
+.title {
+    padding-left: 15px; 
+}
+
+.cart h2{
+    color: #000;
+    background-color: #f1f1f1;
+    font-family: GeometricExtraBold;
+    font-size: 33px;
+    margin: 20px 0px 20px 0px;
+    padding: 5px 20px 5px 20px;
+}
+
+
+.cart table
+{
+    width: 100%;
+    color: #000;
+    font-family: NunitoSanExtraBold;
+    font-size: 21px;
+    margin-bottom: 0px;
+    min-height: 50px;
+}
+
+.cart table thead tr th:first-child
+{
+    text-align: left;
+}
+
+.cart table tr td 
+{
+    border-bottom: 1px solid #ddd;
+}
+
+.cart .cart-button .cart-button-delete
+{
+    border-radius: 0px;
+    height: 40px;
+    width: 125px;
+    margin-top: 5px;
+    background-color: #303030;
+}.cart img 
+{
+    width: 120px;
+}
+
+.icon_trash_alt
+{
+    color: #fff
+}
+
+
+.cart .prices
+{
+    color: #333;
+    font-family: GeometricExtraBold;
+    font-size: 25px;
+    margin-bottom: 0px;
+    min-height: 50px;
+}
+
+.cart .abc
+{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #e1e1e1;
+    font-size: 15px;
+    color: #111111;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.cart-button-payment {
+    margin: 20px;
+}
+
+.cart-btn-payment {
+    border-radius: 10px;
+    padding: 2px 10px;
+    background: #66ccff;
+}
+.cart-header {
+    margin-top: 10px;
+}
+.cart-input {
+    width: 100%;
+}
+
+.selection-btn
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-payment-page,.btn-product-page
+{
+    border-radius: 0px;
+    height: 40px;
+    width: 300px;
+    /* padding-top: 9px; */
+    border: none;
+    background-color: #303030;
+    color: #fff;
+    font-family: GeometricExtraBold;
+    font-size: 18px;
+}
