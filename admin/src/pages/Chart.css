@@ -1,0 +1,55 @@
+.minimal-dashboard
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+
+.box-dashboard
+{
+    width: 23%;
+    text-align: center;
+    border-radius: 10%;
+    border: solid #333;
+}
+
+.box-dashboard .box-icon
+{
+    width: 50px;
+    margin: auto;
+    border-radius: 45%;
+}
+
+.box-dashboard .box-icon img
+{
+     width: 50px;
+     height: 50px;
+}
+
+.box-dashboard h2
+{
+
+}
+
+.box-dashboard h6
+{
+
+}
+
+
+.traffic-by-site
+{
+    width: 45%;
+    margin: 10px auto;
+}
+
+
+.traffic-by-site .box-dashboard
+{
+    width: 45%;
+    float: left;
+    margin: 10px 10px;
+}
+
+
